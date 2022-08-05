@@ -43,25 +43,44 @@ li {
 
 .weather-temperature img {
     margin-right: 10px;
-    height: 64px;
-    width: 64px;
+    height: 55px;
+    width: 55px;
 }
 
-.currentTemperature strong {
+.weather-temperature  strong {
     color: black;
-    font-weight: bold;
+    font: weight 400px;
     line-height: 1;
-    font-size: 64px;
+    font-size: 54px;
 }
 
 .weather-temperature .units {
     position: relative;
     font-size: 14px;
-    top: -10px;
+    top: -30px;
 }
 
 .weather-temperature .active {
     color: black;
     cursor: default;
     text-decoration: none;
+}
+
+.weather-forecast{
+    margin-top:20px;
+    text-align: center;
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+    color: white;
+    opacity:0.5
+}
+
+.weather-forecast-temperature-min{
+    opacity:0.5;
+}
+
+.weather-forecast-temperatures{
+    font-size: 13px;
 }

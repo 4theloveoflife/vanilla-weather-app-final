@@ -87,9 +87,12 @@ li {
 
 @media(max-width:576px){
     .weather-forecast-date{
-        font-size:smaller;
+        font-size:12px;
     }
     .forecast{
-        font-size: small;
+        font-size: 11px;
+    }
+   .currentTemperature {
+font-size:12px;
     }
     }

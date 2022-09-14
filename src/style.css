@@ -84,3 +84,12 @@ li {
 .weather-forecast-temperatures{
     font-size: 13px;
 }
+
+@media(max-width:576px){
+    .weather-forecast-date{
+        font-size:smaller;
+    }
+    .forecast{
+        font-size: small;
+    }
+    }
